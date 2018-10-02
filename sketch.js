@@ -19,7 +19,7 @@ function draw() {
   rotate(frameCount*300);
   noFill();
 
-  stroke(lerpColor(color('#0fefca'),color('#ea0043'), frameCount/120));
+  //stroke(lerpColor(color('#0fefca'),color('#ea0043'), frameCount/120));
   stroke(30,0,0,50);
 
     line(200,200,cos(frameCount*3)*200,sin(frameCount*3)*200);
@@ -30,8 +30,8 @@ function draw() {
   translate(width/2,height/2);
   rotate(frameCount*30);
   noFill();
-  //stroke(lerpColor(color('#ea0043'), color('#0fefca'), frameCount/150));
-  stroke(200)
+  //stroke(lerpColor(color('#1E0000'), color('#FFFDF7'), frameCount/150));
+  stroke(30,0,0)
   ellipse(20,0,300,200);
   pop();
 
@@ -39,8 +39,8 @@ function draw() {
   translate(width/2,height/2);
   rotate(frameCount*30);
   noFill();
-  //stroke(lerpColor(color('#ea0043'), color('#0fefca'), frameCount/150));
-  stroke(100)
+  //stroke(lerpColor(color('#FFFDF7'), color('#1E0000'), frameCount/150));
+  stroke(255,255,247)
   ellipse(20,0,200,300);
   pop();
 
@@ -56,7 +56,7 @@ function draw() {
   translate(width/2,height/2);
   rotate(frameCount*3);
   noFill();
-  stroke(lerpColor(color('#fffff7'), color(' #1d0000'), frameCount/120));
+  stroke(lerpColor(color('#fffff7'), color('#1E0000'), frameCount/120));
   line(cos(frameCount*30)*300,sin(frameCount*30)*330,cos(frameCount*30)*300,sin(frameCount*30)*300);
   pop();
 
@@ -65,8 +65,8 @@ function draw() {
   translate(width/2,height/2);
   rotate(frameCount*3);
   noFill();
-  //stroke(lerpColor(color('#ea0043'), color('#0fefca'), frameCount/150));
-  stroke(300)
+  //stroke(lerpColor(color('#FFFDF7'), color('#1E0000'), frameCount/120));
+  stroke(255,255,247)
   ellipse(180,0,cos(frameCount*3)*20,20);
   pop();
 
@@ -74,7 +74,7 @@ function draw() {
   translate(width/2,height/2);
   rotate(frameCount*3);
   noFill();
-  stroke(lerpColor(color('#ea0043'), color('#0fefca'), frameCount/120));
+  stroke(lerpColor(color('#FFFDF7'), color('#1E0000'), frameCount/120));
   line(0,0,cos(frameCount*3)*100,sin(frameCount*3)*100);
   pop();
 
